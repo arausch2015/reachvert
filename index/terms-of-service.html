@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Reachvert</title>
+    <style>
+        @font-face {
+            font-family: 'DejaVu Sans';
+            src: local('DejaVu Sans'), local('DejaVuSans');
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'DejaVu Sans';
+            src: local('DejaVu Sans Bold'), local('DejaVuSans-Bold');
+            font-weight: 700;
+            font-style: normal;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --black: #0A0A0A;
+            --black-lighter: #1A1A1A;
+            --green: #00D084;
+            --green-light: #00F5A0;
+            --gray-50: #FAFAFA;
+            --gray-300: #D4D4D4;
+            --gray-400: #A3A3A3;
+            --gray-500: #737373;
+        }
+
+        body {
+            font-family: 'DejaVu Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: var(--black);
+            color: var(--gray-50);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .mesh-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 208, 132, 0.12), transparent),
+                var(--black);
+            z-index: -1;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(10, 10, 10, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 208, 132, 0.15);
+        }
+
+        .logo-container img {
+            height: 50px;
+            width: auto;
+        }
+
+        .back-link {
+            color: var(--green);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--green-light);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10rem 2rem 4rem;
+        }
+
+        h1 {
+            font-family: 'DejaVu Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            color: var(--green);
+        }
+
+        .update-date {
+            color: var(--gray-400);
+            font-size: 0.95rem;
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            color: var(--gray-50);
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            border-bottom: 2px solid var(--green);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--gray-50);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--gray-300);
+            line-height: 1.8;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1.25rem;
+        }
+
+        li {
+            color: var(--gray-300);
+            margin-bottom: 0.5rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--gray-50);
+            font-weight: 700;
+        }
+
+        .highlight {
+            background: rgba(0, 208, 132, 0.1);
+            padding: 1.5rem;
+            border-left: 3px solid var(--green);
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid rgba(0, 208, 132, 0.1);
+            color: var(--gray-400);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem 1.5rem;
+            }
+
+            .logo-container img {
+                height: 40px;
+            }
+
+            .container {
+                padding: 8rem 1.5rem 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mesh-gradient"></div>
+
+    <header>
+        <div class="logo-container">
+            <img src="reachvert_logo_transparent.png" alt="Reachvert - B2B Outbound Infrastructure">
+        </div>
+        <a href="reachvert-website.html" class="back-link">← Back to Home</a>
+    </header>
+
+    <div class="container">
+        <h1>Terms of Service</h1>
+        <p class="update-date">The Andrew Rauschenberger Companies (d/b/a Copyvert)<br>Last Updated: February 13, 2026</p>
+
+        <p>These Terms of Service ("Terms") govern all services provided by The Andrew Rauschenberger Companies, doing business as Copyvert ("Company," "we," "us," or "our") to any client ("Client," "you," or "your").</p>
+
+        <p>By purchasing, accessing, or continuing to use the Company's services, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
+
+        <div class="highlight">
+            <p><strong>Payment for services constitutes acceptance of these Terms.</strong> By completing a purchase, submitting payment information, or authorizing a charge, the Client explicitly agrees to be bound by all terms, conditions, policies, and obligations set forth in this agreement, including but not limited to the no-refund policy, automatic renewal terms, subscription commitments, and all other provisions herein.</p>
+        </div>
+
+        <p>These Terms apply to all services provided by the Company, including but not limited to: (a) business-to-business (B2B) outbound infrastructure services (email outreach systems, LinkedIn outreach systems, automation workflows, and subscription-based services); (b) business-to-consumer (B2C) sales copywriting services (sales pages, landing pages, email sequences, ad copy, and related deliverables); and (c) consulting and advisory services provided on a retainer or subscription basis. Specific terms applicable to each service category are detailed in the relevant sections below.</p>
+
+        <h2>1. Service Categories and Scope of Services</h2>
+        <p>The Company provides three primary categories of services, each subject to the general terms herein and specific provisions as outlined:</p>
+
+        <h3>1.1 B2B Outbound Infrastructure Services</h3>
+        <p>These services are designed to support business-to-business prospecting and outreach efforts. Services may include, but are not limited to:</p>
+        <ul>
+            <li>Email outreach infrastructure, domain setup, and mailbox configuration</li>
+            <li>LinkedIn outreach workflows and automation systems</li>
+            <li>Campaign setup, configuration, technical deployment, and ongoing management</li>
+            <li>Copy implementation (provided by Client or written by Company if applicable)</li>
+            <li>Deliverability monitoring, technical optimization, and inbox placement management</li>
+            <li>Data handling, list preparation, enrichment services (where purchased), and prospect targeting</li>
+            <li>System management, monitoring, and technical support during active subscription term</li>
+        </ul>
+        <p>Specific deliverables, channels, volumes, configurations, and service levels vary by tier and are defined by the Client's selected plan, invoice, written agreement, or checkout confirmation. The Company provides infrastructure, systems, execution support, and technical expertise—not guaranteed outcomes, results, response rates, or conversion metrics.</p>
+
+        <h3>1.2 B2C Sales Copywriting Services</h3>
+        <p>The Company offers professional sales copywriting services for business-to-consumer marketing and conversion optimization. Deliverables may include:</p>
+        <ul>
+            <li>Sales pages and landing pages</li>
+            <li>Email sequences and automated email campaigns</li>
+            <li>Advertising copy and creative messaging (digital ads, social media ads, paid search copy)</li>
+        </ul>
+        <p>Each copywriting deliverable includes up to two (2) rounds of revisions. Revisions are defined as modifications to existing copy based on Client feedback and must be requested within fourteen (14) days of initial delivery. Requests for revisions beyond the included two (2) rounds, requests for entirely new copy concepts, or substantial rewrites constituting new deliverables will be billed separately at the Company's then-current rates.</p>
+        <p>The Company provides creative copywriting services and strategic messaging recommendations—not guaranteed sales results, conversion rates, revenue outcomes, or performance metrics. Final performance depends on factors outside the Company's control, including but not limited to product-market fit, offer quality, traffic sources, pricing, and Client execution.</p>
+
+        <h3>1.3 Consulting and Advisory Services</h3>
+        <p>The Company offers strategic consulting and advisory services on a retainer or subscription basis. These services may include strategy development, market analysis, campaign planning, conversion optimization recommendations, funnel design consultation, and expert guidance on outbound infrastructure, copywriting strategy, or marketing execution. Consulting services are delivered through scheduled calls, asynchronous communication, written strategic documents, or other formats as agreed upon. Specific deliverables, meeting frequency, communication channels, and response time expectations will be defined in the Client's service agreement, invoice, or subscription terms.</p>
+
+        <h3>1.4 Service Tier Boundaries and Scope Limitations</h3>
+        <p>Each service tier, package, or subscription plan includes specific deliverables, service levels, communication channels, turnaround times, and support parameters as defined at the time of purchase. Services beyond the scope of the Client's purchased tier or plan are not included and will be declined or billed separately.</p>
+        <p>The following are not included unless explicitly stated in the Client's service agreement:</p>
+        <ul>
+            <li>Unlimited revisions, modifications, or rework beyond the specified revision limits</li>
+            <li>Strategic consulting or advisory services bundled with execution-only service tiers</li>
+            <li>Rush delivery, expedited turnaround, or priority service unless explicitly purchased</li>
+            <li>Additional domain protection, monitoring, or reputation management beyond standard tier provisions</li>
+            <li>Custom integrations, third-party platform connections, or technical work outside defined scope</li>
+            <li>Training, onboarding support, or education beyond initial setup assistance</li>
+            <li>Unlimited communication access, instant responses, or dedicated account management unless specified</li>
+        </ul>
+        <p>Clients requesting services beyond their purchased tier must obtain prior written approval and may be subject to additional fees. The Company reserves the right to decline requests for out-of-scope work or to provide pricing for such work as a separate engagement.</p>
+
+        <h2>2. Deliverable Turnaround Times and Client Responsibilities</h2>
+        <p>Estimated turnaround times for deliverables are provided at the time of engagement and may vary based on service tier, project complexity, and current workload. Standard turnaround times are estimates, not guarantees, and may be extended due to factors including but not limited to incomplete Client information, delayed Client feedback, third-party dependencies, or force majeure events.</p>
+        <p>The Client is responsible for providing complete, accurate, and timely information necessary for the Company to perform services, including but not limited to: access credentials, login information, content assets, brand guidelines, strategic direction, target audience details, approval decisions, and feedback. Failure by the Client to provide required information or access within a reasonable timeframe may result in project delays, suspension of work, or termination of services without refund.</p>
+        <p>If the Company is unable to proceed due to lack of Client-provided information, credentials, or approvals for a period exceeding thirty (30) days, the Company reserves the right to consider the project abandoned and may close the engagement without refund or obligation to complete the work.</p>
+
+        <h3>2.1 Rush Delivery and Expedited Services</h3>
+        <p>Rush delivery or expedited turnaround services are available only upon explicit agreement and payment of applicable rush fees. Rush requests must be submitted in writing and are subject to availability and Company approval. The Company is under no obligation to accept rush requests and may decline such requests at its sole discretion.</p>
+
+        <h2>3. Communication and Response Time Expectations</h2>
+        <p>The Company provides support and communication through designated channels as specified in the Client's service tier. Standard response times during business hours (Monday through Friday, 9:00 AM to 5:00 PM EST, excluding holidays) are as follows:</p>
+        <ul>
+            <li>General inquiries and non-urgent questions: within 1-2 business days</li>
+            <li>Technical support requests: within 1-3 business days depending on complexity</li>
+            <li>Strategic or consulting discussions: as scheduled or within agreed timeframes</li>
+        </ul>
+        <p>These response times are targets, not guarantees. Actual response times may vary based on workload, complexity of inquiry, availability of personnel, and priority level. Clients requiring guaranteed response times, dedicated support, or instant access may purchase premium support tiers if available.</p>
+        <p>The Company is under no obligation to provide support outside of business hours, on weekends, or during holidays unless explicitly agreed upon in writing.</p>
+
+        <h2>4. Subscription-Based Services</h2>
+        <p>All B2B outbound infrastructure services and consulting/advisory services provided by the Company operate under a subscription-based billing model.</p>
+        <p>New clients are required to begin services under a three (3) month subscription term. This initial term is mandatory to account for the time, resources, infrastructure provisioning, and system setup required to deploy outbound systems, workflows, and technical configurations.</p>
+        <p>Upon completion of the initial three (3) month term, a client who chooses to renew services may select either a three (3) month subscription or a one (1) month subscription option going forward, subject to availability and pricing at the time of renewal.</p>
+        <p>If a client chooses not to renew services after their term ends but later returns to the Company for services, such client will be classified as a new client and will be required to begin again under the three (3) month subscription model.</p>
+
+        <h3>4.1 Monthly Ramp-Up Fee Exception (New Clients Only)</h3>
+        <p>If a new client is unable to commit to the initial three (3) month investment due to internal organizational policy or similar constraints and is approved by the Company to begin services on a month-to-month basis, such approval shall be treated as a temporary accommodation, not a waiver of the standard three (3) month commitment.</p>
+        <p>In such cases, a monthly infrastructure ramp-up fee will apply each month until the completion of the equivalent three (3) month period. The amount of this ramp-up fee will be disclosed to the Client in advance, prior to purchase, and confirmed in writing (including via invoice or checkout).</p>
+        <p>This ramp-up fee is required to offset the upfront infrastructure deployment, system provisioning, technical setup, and resource allocation associated with onboarding and operating outbound infrastructure.</p>
+        <p>The monthly ramp-up fee:</p>
+        <ul>
+            <li>Applies each month until the third month is completed</li>
+            <li>Is non-negotiable</li>
+            <li>Is non-refundable</li>
+            <li>Is disclosed up front prior to purchase</li>
+            <li>Does not waive the Company's ownership of infrastructure</li>
+        </ul>
+
+        <h3>4.2 Recovery of Unpaid Initial Commitment</h3>
+        <p>The Client acknowledges that the standard onboarding and infrastructure costs are structured around a three (3) month engagement.</p>
+        <p>Accordingly, if the Client fails to complete payment equivalent to the full three (3) month investment, whether due to early cancellation, non-payment, chargeback, or other termination initiated by the Client, the Company reserves the right to:</p>
+        <ul>
+            <li>Pursue recovery of any unpaid portion of the initial three (3) month investment</li>
+            <li>Invoice the Client for outstanding balances related to infrastructure, setup, and allocated resources</li>
+            <li>Assess and recover reasonable administrative costs, late fees, collection costs, legal fees, and enforcement expenses associated with such recovery, to the extent permitted by law</li>
+        </ul>
+        <p>Nothing in this exception shall be construed as a waiver of the Company's right to enforce the full initial investment requirement.</p>
+        <p>Subscription terms, pricing, billing intervals, applicable ramp-up fees, and renewal options are disclosed prior to purchase and confirmed at checkout or via invoice. The subscription investment rates are also subject to change at any time without prior notice.</p>
+
+        <h2>5. Billing Authorization & Automatic Renewal</h2>
+        <p>By purchasing or continuing services, the Client authorizes the Company to charge the payment method on file on a recurring basis according to the selected billing interval.</p>
+        <p>Unless canceled by the Client prior to the next billing cycle, subscriptions will automatically renew and continue billing at the then-current rate.</p>
+        <p>The Company is not responsible for failed cancellation attempts due to user error, payment processor issues, failure to complete the cancellation process, or failure to review billing reminders.</p>
+        <p>The Client acknowledges and agrees that forgetting to cancel, failing to monitor billing dates, not reading billing reminder emails, or any other oversight on the Client's part does not constitute grounds for a refund, chargeback, or dispute. It is the Client's sole responsibility to manage their subscription and cancel prior to renewal if they do not wish to continue services.</p>
+
+        <h2>6. Cancellation Policy</h2>
+        <p>Clients may cancel their subscription at any time prior to the next billing date through the Company's billing platform (including Stripe). Cancellation through Stripe constitutes sufficient notice.</p>
+        <p>Written notice of cancellation is strongly recommended for record-keeping purposes but is not required if cancellation is successfully completed through the billing platform.</p>
+        <p>While not required, Clients are encouraged to provide a minimum of seven (7) days' notice prior to the billing date. The Company may provide advance billing reminders (including approximately fifteen (15) days' notice) as a courtesy; however, failure to receive or review such reminders does not relieve the Client of their cancellation responsibility.</p>
+
+        <h2>7. No Refunds / Final Sale Policy</h2>
+        <div class="highlight">
+            <p><strong>All investments made with the Company are final.</strong></p>
+        </div>
+        <p>No refunds will be issued under any circumstance, including but not limited to:</p>
+        <ul>
+            <li>Setup fees</li>
+            <li>Monthly subscription charges</li>
+            <li>Prepaid multi-month terms (including three-month investments)</li>
+            <li>Add-ons, enrichment services, data services, or upgrades</li>
+            <li>Copywriting services or deliverables</li>
+            <li>Consulting or advisory services</li>
+            <li>Charges resulting from failure to cancel prior to the billing cycle</li>
+        </ul>
+        <p>This policy applies regardless of usage, performance, results, deliverability outcomes, conversion rates, sales performance, or Client dissatisfaction.</p>
+        <p>Specifically, no refunds will be issued for charges resulting from the Client's failure to cancel prior to automatic renewal, regardless of the reason for such failure, including but not limited to forgetting to cancel, not reading emails, technical difficulties in accessing the cancellation portal, or any other circumstance. The Client accepts full responsibility for monitoring their subscription status and billing dates.</p>
+
+        <h2>8. Chargebacks & Payment Disputes</h2>
+        <p>By purchasing services, the Client acknowledges that all subscription charges are valid, authorized, and non-refundable.</p>
+        <p>The Client agrees not to initiate chargebacks, payment reversals, or payment disputes for valid subscription charges. Any chargebacks or disputes submitted in violation of these Terms will be actively contested by the Company using service records, billing confirmations, communications, and delivery logs.</p>
+        <p>The Company reserves the right to recover any fees, penalties, administrative costs, or damages incurred as a result of chargebacks or disputes. Additionally, the Company reserves the right to pursue collection of amounts owed, plus reasonable attorney fees and collection costs, to the extent permitted by law.</p>
+
+        <h2>9. Non-Payment, Suspension, and Termination</h2>
+        <p>If payment is not received in full when due, the Company reserves the right to:</p>
+        <ul>
+            <li>Immediately suspend services</li>
+            <li>Pause or terminate active campaigns</li>
+            <li>Revoke access to tools, dashboards, workspaces, and systems</li>
+            <li>Shut down or disable domains, mailboxes, and infrastructure</li>
+            <li>Permanently refuse future services to the Client</li>
+        </ul>
+        <p>Suspension due to non-payment may occur without prior notice and will remain in effect indefinitely until resolved, if at all.</p>
+        <p>Unpaid balances may be subject to late fees of 1.5% per month (or the maximum rate permitted by law, whichever is lower) and may be referred to collections. The Client shall be responsible for all reasonable costs of collection, including attorney fees.</p>
+
+        <h2>10. Ownership of Infrastructure & Systems</h2>
+        <p>All domains, mailboxes, email accounts, LinkedIn workflows, automation systems, software subscriptions (including Instantly, AI tools, and related platforms), data, configurations, and outbound infrastructure remain the exclusive property of The Andrew Rauschenberger Companies (d/b/a Copyvert) at all times.</p>
+        <p>Clients are granted temporary, limited access to such infrastructure solely for the duration of an active, paid subscription. No ownership rights are transferred under any circumstance by default.</p>
+        <p>If a Client wishes to request ownership or transfer of any portion of the outbound infrastructure, such request must be submitted in writing and is subject to explicit written approval by The Andrew Rauschenberger Companies. Approval is granted solely at the Company's discretion and may be denied for any reason. No verbal agreements, assumptions, or implied rights shall be considered valid.</p>
+        <p>Unless and until such written approval is granted, all infrastructure remains the exclusive property of the Company.</p>
+        <p>Upon cancellation, non-renewal, termination, or suspension of services, all access is revoked and infrastructure may be decommissioned, reassigned, or repurposed at the Company's discretion. The Client has no right to claim, retain, or demand transfer of infrastructure, domains, email accounts, subscriber lists, contact data, automation workflows, or system configurations after services end.</p>
+
+        <h3>10.1 Immediate Access Revocation Upon Termination</h3>
+        <p>Upon cancellation, non-renewal, non-payment, suspension, termination, or any cessation of services for any reason, all Client access to Company-owned infrastructure, platforms, tools, systems, and data will be immediately and permanently revoked without prior notice or grace period. This includes, but is not limited to, access to:</p>
+        <ul>
+            <li>Instantly.ai accounts, campaigns, and analytics</li>
+            <li>Email accounts, mailboxes, and domain dashboards</li>
+            <li>LinkedIn automation tools, workflows, and messaging systems</li>
+            <li>CRM systems, databases, and contact management platforms</li>
+            <li>Campaign data, performance metrics, and reporting dashboards</li>
+            <li>Any third-party platforms, software, or tools provided by the Company for service delivery</li>
+            <li>Any other systems, workspaces, or access credentials previously provided to the Client</li>
+        </ul>
+        <p>The Company may, at its sole discretion and without any obligation to do so, disable access immediately upon missed payment, cancellation notice, or termination. The Client acknowledges that access revocation may occur without warning and that the Company has no obligation to provide advance notice, data export opportunities, or transition periods.</p>
+
+        <h3>10.2 Data Ownership, Retention, and Client Waiver of Rights</h3>
+        <p>All campaign data, lead lists, contact information, prospect databases, email sequences, messaging content, performance analytics, and any other data generated, collected, or processed during the provision of services remains the exclusive property of the Company at all times.</p>
+        <p>The Client explicitly acknowledges and agrees that:</p>
+        <ul>
+            <li>All data is Company property, not Client property</li>
+            <li>The Client has no ownership rights, claims, or interests in any data, leads, contacts, or information</li>
+            <li>The Client waives any and all rights to demand, request, or obtain data exports, backups, or copies upon termination</li>
+            <li>The Client has no right to access, retrieve, or transfer data after services end</li>
+            <li>The Company is under no obligation to provide data, leads, or contact lists to the Client at any time</li>
+        </ul>
+        <p>Upon termination of services, the Company may, at its sole and absolute discretion: (a) delete all Client-related data immediately and permanently; (b) retain data for compliance, legal, or business record-keeping purposes for any period of time; or (c) repurpose, anonymize, or utilize data for Company purposes. The Company has no obligation to notify the Client of its data handling decisions.</p>
+
+        <h3>10.3 Third-Party Platform Access Deletion</h3>
+        <p>Any access credentials, login permissions, user accounts, or authorizations granted to the Client for third-party platforms (including but not limited to Instantly.ai, LinkedIn, Google Workspace, CRM systems, data providers, or any other external tools) will be immediately revoked, disabled, or deleted upon termination of services. The Client acknowledges that such access was provided solely for the duration of active services and that the Company has the right to terminate all third-party access without notice.</p>
+
+        <h3>10.4 Revocation of Deliverables Upon Payment Dispute</h3>
+        <p>If the Client initiates a chargeback, payment dispute, refund request, or fails to pay for services after deliverables (including copywriting, campaign setups, strategic documents, or other work product) have been provided, the Company reserves the right to:</p>
+        <ul>
+            <li>Immediately revoke the Client's license to use any and all deliverables created by the Company</li>
+            <li>Demand that the Client cease all use of Company-created materials, copy, campaigns, or work product</li>
+            <li>Publicly disclose that the Client violated these Terms, engaged in payment fraud, or acted in bad faith</li>
+            <li>Pursue legal action for intellectual property infringement if the Client continues to use revoked materials</li>
+            <li>Recover all work product, files, and materials provided to the Client</li>
+        </ul>
+        <p>The Client acknowledges that all deliverables are provided contingent upon full payment and that failure to complete payment results in automatic revocation of usage rights. The Client agrees not to use, reproduce, distribute, or retain any Company-created materials if payment is disputed, reversed, or not completed in full.</p>
+
+        <h2>11. Intellectual Property Ownership</h2>
+
+        <h3>11.1 Company-Owned Materials</h3>
+        <p>All systems, workflows, processes, frameworks, automation logic, templates, methodologies, strategies, tools, software configurations, prompt libraries, copy frameworks, and internal documentation developed, used, or provided by the Company in connection with the services ("Company Materials") remain the exclusive intellectual property of the Company.</p>
+        <p>This includes, without limitation:</p>
+        <ul>
+            <li>Outbound infrastructure architecture</li>
+            <li>Email and LinkedIn workflow logic</li>
+            <li>Deliverability methodologies</li>
+            <li>Automation sequences and system designs</li>
+            <li>Copy frameworks, formulas, and structural patterns</li>
+            <li>Strategic processes and proprietary methodologies</li>
+        </ul>
+        <p>The Client is granted a limited, non-exclusive, non-transferable, revocable license to use Company Materials solely during the term of an active, paid subscription and solely for their internal business use. No ownership rights are transferred.</p>
+
+        <h3>11.2 B2C Copywriting Work Product</h3>
+        <p>For B2C sales copywriting services, all creative work product (sales pages, landing pages, email sequences, ad copy, and related deliverables) remains the intellectual property of the Company. The Client is granted a perpetual, non-exclusive, worldwide license to use the delivered copy for its intended commercial purpose.</p>
+        <p>The Company retains the right to use completed copy work in portfolios, case studies, marketing materials, and promotional efforts, subject to Client confidentiality where applicable. The Client may request that specific copy remain confidential and not be used for Company promotional purposes by providing written notice at the time of engagement.</p>
+        <p>The Client may not resell, sublicense, or redistribute the copy to third parties without explicit written permission from the Company.</p>
+
+        <h2>12. Client Indemnification and Compliance Responsibility</h2>
+        <p>The Client agrees to indemnify, defend, and hold harmless The Andrew Rauschenberger Companies (d/b/a Copyvert), its officers, employees, contractors, and affiliates from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorney fees) arising from or related to:</p>
+        <ul>
+            <li>The Client's use of the Company's services in violation of any applicable laws, regulations, or third-party rights</li>
+            <li>The Client's outreach campaigns, messaging, targeting, or contact lists that violate anti-spam laws (including CAN-SPAM, GDPR, CASL, or other applicable regulations)</li>
+            <li>Claims of defamation, false advertising, trademark infringement, or other legal violations resulting from the Client's messaging, offers, or business practices</li>
+            <li>The Client's failure to obtain necessary consents, permissions, or opt-ins for contacts in their campaigns</li>
+            <li>Any disputes, complaints, or legal actions initiated by recipients of the Client's campaigns</li>
+            <li>The Client's violation of platform terms of service (LinkedIn, Google, email providers, etc.) resulting in account suspension, termination, or legal action</li>
+            <li>The Client's provision of false, misleading, or incomplete information to the Company</li>
+        </ul>
+        <p>The Client acknowledges that they are solely responsible for ensuring compliance with all applicable laws and regulations governing their marketing activities, outreach campaigns, data collection, and use of contact information. The Company provides infrastructure and execution support but does not guarantee legal compliance and is not responsible for the Client's compliance obligations.</p>
+
+        <h2>13. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, the Company's total liability to the Client for any and all claims arising out of or related to these Terms or the services provided shall not exceed the total amount paid by the Client to the Company in the three (3) months immediately preceding the event giving rise to the claim.</p>
+        <p>In no event shall the Company be liable for any indirect, incidental, consequential, special, punitive, or exemplary damages, including but not limited to loss of profits, revenue, business opportunities, data, goodwill, or other intangible losses, even if the Company has been advised of the possibility of such damages.</p>
+        <p>The Client acknowledges that the Company provides tools, infrastructure, and services but does not control or guarantee outcomes, results, deliverability rates, response rates, conversion rates, sales, revenue, or any other performance metrics. The Company is not responsible for factors outside its control, including but not limited to platform changes, algorithm updates, recipient behavior, market conditions, Client execution, or third-party service failures.</p>
+
+        <h2>14. Domain and Infrastructure Liability Limitations</h2>
+        <p>The Company is not liable for domain-related issues beyond the scope of services explicitly included in the Client's purchased tier. The Client acknowledges that domain reputation, deliverability, blacklisting, and email placement are influenced by numerous factors outside the Company's control, including but not limited to recipient engagement, content quality, targeting accuracy, and third-party filtering systems.</p>
+        <p>The Company provides standard domain monitoring and deliverability optimization as part of its services but does not guarantee inbox placement, domain reputation maintenance, or protection against blacklisting. Additional domain protection, reputation monitoring, or recovery services beyond the standard tier provisions are not included unless explicitly purchased.</p>
+        <p>The Company is not responsible for domain suspension, blacklisting, or deliverability degradation resulting from Client actions, Client-provided copy, targeting decisions made by the Client, or external factors beyond the Company's control.</p>
+
+        <h2>15. Warranties Disclaimer</h2>
+        <div class="highlight">
+            <p><strong>THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED. THE COMPANY DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.</strong></p>
+        </div>
+        <p>The Company does not warrant that services will be uninterrupted, error-free, secure, or free from viruses or other harmful components. The Company does not guarantee any specific results, outcomes, deliverability rates, response rates, conversion rates, revenue, or performance metrics.</p>
+
+        <h2>16. No Performance Guarantees</h2>
+        <p>The Client acknowledges and agrees that the Company makes no guarantees regarding:</p>
+        <ul>
+            <li>Email deliverability rates or inbox placement</li>
+            <li>Response rates, engagement rates, or conversion rates</li>
+            <li>Number of leads, appointments, or sales generated</li>
+            <li>Revenue, profit, or return on investment</li>
+            <li>LinkedIn connection acceptance rates or message response rates</li>
+            <li>Campaign performance or marketing results</li>
+            <li>Sales from copywriting deliverables or marketing materials</li>
+        </ul>
+        <p>Performance and results depend on numerous factors outside the Company's control, including but not limited to market conditions, product-market fit, offer quality, pricing, targeting accuracy, Client execution, recipient behavior, platform algorithm changes, and competitive landscape.</p>
+        <p>Any case studies, examples, testimonials, or performance metrics shared by the Company are for illustrative purposes only and do not constitute a guarantee of similar results for any Client.</p>
+
+        <h2>17. Third-Party Services and Platforms</h2>
+        <p>The Company may utilize third-party platforms, tools, and services (including but not limited to Instantly, Aimfox, LinkedIn, Google Workspace, email service providers, data enrichment services, and AI tools) to deliver services to the Client. The Client acknowledges that such third-party services are governed by their own terms of service and privacy policies, which are outside the Company's control.</p>
+        <p>The Company is not responsible for changes to third-party platforms, service disruptions, policy changes, pricing changes, feature deprecations, account suspensions, or terminations imposed by third-party providers. The Client agrees that any issues arising from third-party services are the responsibility of the third-party provider, not the Company.</p>
+        <p>The Company is not liable for any damages, losses, service interruptions, or failures resulting from third-party vendor issues, including but not limited to vendors going out of business, platform malfunctions, service outages, API changes, policy violations, or any other matters outside the Company's direct control. While the Company will make reasonable good-faith efforts to resolve issues related to third-party vendors or to identify alternative solutions where feasible, the Company makes no guarantee of resolution and bears no liability for third-party failures or their impact on Client services.</p>
+
+        <h2>18. Data Privacy and Confidentiality</h2>
+
+        <h3>18.1 Client Data</h3>
+        <p>The Company will handle Client data (including contact lists, prospect information, and campaign data) in accordance with applicable privacy laws and the Company's internal data handling policies. The Client represents and warrants that they have obtained all necessary consents and permissions to provide such data to the Company for the purposes of delivering services.</p>
+
+        <h3>18.2 Confidentiality</h3>
+        <p>Each party agrees to maintain the confidentiality of any non-public, proprietary, or confidential information disclosed by the other party in connection with the services ("Confidential Information").</p>
+        <p>Confidential Information includes, but is not limited to:</p>
+        <ul>
+            <li>Business operations, strategies, pricing, and financial information</li>
+            <li>Technical systems, infrastructure configurations, workflows, and processes</li>
+            <li>Campaign data, performance metrics, and analytics</li>
+            <li>Client lists, prospect data, and targeting methodologies</li>
+            <li>Internal communications, documentation, and know-how</li>
+        </ul>
+        <p>Confidential Information does not include information that:</p>
+        <ul>
+            <li>Is or becomes publicly available through no fault of the receiving party</li>
+            <li>Was lawfully known prior to disclosure</li>
+            <li>Is independently developed without reference to the Confidential Information</li>
+            <li>Is required to be disclosed by law or legal process</li>
+        </ul>
+        <p>Each party agrees to use Confidential Information solely for purposes of performing under these Terms and to take reasonable measures to protect such information from unauthorized access or disclosure.</p>
+
+        <h2>19. Client Conduct and Prohibited Activities</h2>
+        <p>The Client agrees not to:</p>
+        <ul>
+            <li>Use the Company's services for any unlawful, fraudulent, or malicious purpose</li>
+            <li>Send unsolicited communications in violation of anti-spam laws or platform terms of service</li>
+            <li>Engage in phishing, spoofing, or other deceptive practices</li>
+            <li>Violate the intellectual property rights of third parties</li>
+            <li>Attempt to reverse engineer, decompile, or extract proprietary methodologies or systems</li>
+            <li>Interfere with or disrupt the Company's infrastructure or services</li>
+            <li>Misrepresent their identity, business, or relationship with the Company</li>
+            <li>Harass, abuse, or mistreat Company employees, contractors, or personnel</li>
+        </ul>
+        <p>The Company reserves the right to immediately suspend or terminate services if the Client engages in prohibited activities or conduct that violates these Terms.</p>
+
+        <h2>20. Abuse of Personnel, Time, or Access</h2>
+        <p>The Client agrees to engage with the Company's personnel in a professional and respectful manner. Abusive, threatening, harassing, or otherwise inappropriate conduct toward Company employees or contractors will not be tolerated.</p>
+        <p>Misconduct includes, but is not limited to:</p>
+        <ul>
+            <li>Verbal abuse, threats, or harassment of any kind</li>
+            <li>Excessive or unreasonable demands on personnel time beyond the scope of services</li>
+            <li>Attempts to extract services, labor, or access beyond the Client's paid investment</li>
+            <li>Attempts to pressure employees or contractors into violating Company policies, laws, or platform rules</li>
+        </ul>
+
+        <h3>20.1 Remedies for Misconduct</h3>
+        <p>If the Company determines, in its sole discretion, that the Client has engaged in misconduct (including abuse of time, access, or personnel), the Company reserves the right to:</p>
+        <ul>
+            <li>Limit or restructure communication and support</li>
+            <li>Assign a single point of contact</li>
+            <li>Suspend or terminate services immediately</li>
+            <li>Revoke access to systems, workspaces, or personnel</li>
+            <li>Permanently refuse future services</li>
+        </ul>
+        <p>Such actions may be taken without prior notice and without any obligation to issue refunds, credits, or compensation.</p>
+
+        <h2>21. Dispute Resolution and Binding Arbitration</h2>
+
+        <h3>21.1 Informal Resolution Requirement</h3>
+        <p>Before initiating any formal legal proceeding or arbitration, the Client agrees to first attempt to resolve any dispute by providing written notice to the Company describing the issue in reasonable detail. The parties agree to make a good-faith effort to resolve disputes informally for a period of no less than thirty (30) days from the date such notice is received.</p>
+        <p>Nothing in this section shall prevent the Company from seeking immediate relief for non-payment, intellectual property infringement, chargebacks, misuse of services, or violations of these Terms.</p>
+
+        <h3>21.2 Binding Arbitration</h3>
+        <p>Any dispute, claim, or controversy arising out of or relating to these Terms or the services provided by the Company that cannot be resolved informally shall be resolved exclusively through binding arbitration administered by a qualified arbitrator in the State of Florida in accordance with the applicable rules of arbitration.</p>
+        <p>The arbitration shall be conducted in English, and the arbitrator's decision shall be final and binding on both parties. Judgment on the arbitration award may be entered in any court having jurisdiction.</p>
+        <p>Each party shall bear its own costs and expenses of arbitration, including attorney fees, unless otherwise awarded by the arbitrator. The prevailing party in any arbitration or legal proceeding may be entitled to recover reasonable attorney fees and costs to the extent permitted by law.</p>
+
+        <h3>21.3 Class Action Waiver</h3>
+        <div class="highlight">
+            <p><strong>THE CLIENT AGREES THAT ANY DISPUTE RESOLUTION PROCEEDINGS, WHETHER IN ARBITRATION OR COURT, WILL BE CONDUCTED ONLY ON AN INDIVIDUAL BASIS AND NOT IN A CLASS, CONSOLIDATED, OR REPRESENTATIVE ACTION. THE CLIENT WAIVES ANY RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.</strong></p>
+        </div>
+        <p>If any court or arbitrator determines that the class action waiver is unenforceable, then the arbitration agreement shall be deemed null and void, and the dispute shall be resolved in court subject to the jurisdiction and venue provisions of these Terms.</p>
+
+        <h2>22. Governing Law & Venue Jurisdiction</h2>
+        <p>These Terms of Service shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict-of-law principles.</p>
+        <p>To the extent any dispute is not subject to arbitration, any legal action, claim, or proceeding arising out of or relating to these Terms or the services provided by the Company shall be brought exclusively in the state or federal courts located in the State of Florida.</p>
+        <p>The Client hereby irrevocably consents to the personal jurisdiction and venue of such courts and waives any objection based on improper venue, forum non conveniens, or lack of jurisdiction.</p>
+
+        <h2>23. Attorney Fees and Collection Costs</h2>
+        <p>In the event of any dispute, claim, or legal proceeding arising out of or relating to these Terms, the prevailing party shall be entitled to recover its reasonable attorney fees, court costs, arbitration fees, collection costs, and other expenses incurred in connection with such dispute, to the extent permitted by law.</p>
+        <p>If the Company is required to engage collection agencies, attorneys, or other third parties to recover unpaid amounts owed by the Client, the Client shall be responsible for all reasonable costs of collection, including but not limited to attorney fees, collection agency fees, court costs, and administrative expenses.</p>
+
+        <h2>24. Force Majeure</h2>
+        <p>The Company shall not be liable for any failure or delay in performance resulting from events beyond its reasonable control, including but not limited to acts of God, platform outages, internet disruptions, governmental actions, labor disputes, third-party service failures, pandemics, natural disasters, or other force majeure events.</p>
+
+        <h2>25. Updates to Terms</h2>
+        <p>The Company reserves the right to update or modify these Terms at any time.</p>
+        <p>Updated Terms will become effective upon posting to the Company's website or upon written notice to the Client. Continued use of services after such updates constitutes acceptance of the revised Terms.</p>
+        <p>It is the Client's responsibility to review the Terms periodically.</p>
+
+        <h2>26. Entire Agreement</h2>
+        <p>These Terms constitute the entire agreement between the Client and the Company regarding the subject matter herein and supersede all prior or contemporaneous agreements, discussions, representations, or understandings, whether written or oral.</p>
+        <p>No amendment or modification shall be binding unless in writing and signed by an authorized representative of the Company.</p>
+
+        <h2>27. Assignment</h2>
+        <p>The Client may not assign or transfer any rights or obligations under these Terms without the prior written consent of the Company.</p>
+        <p>The Company may assign these Terms without restriction in connection with a merger, sale of assets, reorganization, or similar transaction.</p>
+
+        <h2>28. Severability</h2>
+        <p>If any provision of these Terms is held to be invalid, illegal, or unenforceable, the remaining provisions shall remain in full force and effect.</p>
+
+        <h2>29. Waiver</h2>
+        <p>The failure of the Company to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.</p>
+
+        <h2>30. Referral Program Terms</h2>
+        <p>The Company offers a referral program that compensates individuals or entities ("Referrers") for successfully referring new clients to the Company. Participation in the referral program is subject to the following terms and conditions, which may be modified, suspended, or terminated by the Company at any time without prior notice.</p>
+
+        <h3>30.1 Referral Compensation Structure</h3>
+        <p>Referral compensation is structured in three tiers based on the relationship between the Referrer and the Company:</p>
+        <ul>
+            <li>Tier 1 Referral: $2,000 referral fee</li>
+            <li>Tier 2 Referral: $1,000 referral fee</li>
+            <li>Tier 3 Referral: $500 referral fee</li>
+        </ul>
+        <p>Tier designation is determined solely by the Company at its discretion based on the Referrer's relationship with the Company, referral quality, and other factors. The Company is under no obligation to disclose tier assignment criteria or justify tier placements.</p>
+
+        <h3>30.2 Payment Conditions and Timing</h3>
+        <p>Referral compensation is contingent upon the referred client ("Referred Client") completing full payment for the initial three (3) month subscription investment. Payment to the Referrer will be issued only after the Referred Client has successfully completed one of the following:</p>
+        <ul>
+            <li><strong>Standard 3-Month Commitment:</strong> Referral fee paid in Month 1 after Referred Client pays in full for the entire 3-month subscription upfront</li>
+            <li><strong>Monthly Installment Exception:</strong> If the Referred Client is approved for month-to-month billing with ramp-up fees, referral compensation will be issued only after the Referred Client has successfully completed and paid for all three (3) monthly installments in full</li>
+        </ul>
+        <p>This payment structure aligns referral incentives with the initial infrastructure investment and resource allocation required to onboard and support new clients. Referral fees are paid only after the Company has successfully collected the full 3-month investment from the Referred Client.</p>
+
+        <h3>30.3 Disqualification and Forfeiture of Referral Fees</h3>
+        <p>The Referrer will receive no referral compensation and may be permanently disqualified from the referral program if any of the following occur:</p>
+        <ul>
+            <li>The Referred Client cancels services before completing the full 3-month investment</li>
+            <li>The Referred Client initiates a chargeback, payment dispute, or refund request</li>
+            <li>The Referred Client fails to make full payment for any portion of the 3-month commitment</li>
+            <li>The Referred Client's account is suspended or terminated for non-payment or violation of Terms</li>
+            <li>The Referrer misrepresents the Company's services, pricing, or policies to the Referred Client</li>
+            <li>The Referrer engages in fraudulent activity, spam, or violations of anti-spam laws (including CAN-SPAM, GDPR, or CASL) in connection with referrals</li>
+            <li>The Referrer violates any terms or conditions of the referral program as determined by the Company</li>
+        </ul>
+        <p>Disqualification from the referral program may be temporary or permanent at the Company's sole discretion. The Company reserves the right to refuse referral payments and to terminate a Referrer's participation in the program at any time for any reason.</p>
+
+        <h3>30.4 Referrer Compliance and Conduct Requirements</h3>
+        <p>Referrers must comply with all applicable laws and regulations when promoting or referring clients to the Company. Specifically, Referrers agree to:</p>
+        <ul>
+            <li>Not misrepresent the Company's services, pricing, guarantees, or capabilities</li>
+            <li>Not make false, misleading, or exaggerated claims about results, outcomes, or performance</li>
+            <li>Comply with all anti-spam laws, including CAN-SPAM, GDPR, CASL, and other applicable regulations</li>
+            <li>Not engage in deceptive marketing practices, bait-and-switch tactics, or fraudulent activities</li>
+            <li>Not use the Company's name, branding, or intellectual property without prior written approval</li>
+            <li>Conduct all referral activities in a professional, ethical, and legal manner</li>
+        </ul>
+        <p>Violation of these requirements may result in immediate disqualification from the referral program, forfeiture of any unpaid referral fees, and potential legal action.</p>
+
+        <h3>30.5 Discretionary Nature of Referral Program</h3>
+        <p>The referral program and all associated compensation are discretionary and may be modified, suspended, reduced, or terminated by the Company at any time without prior notice. Referral fee amounts, tier structures, payment timing, and eligibility requirements are subject to change at the Company's sole discretion.</p>
+        <p>The Company reserves the right to:</p>
+        <ul>
+            <li>Change referral compensation amounts at any time</li>
+            <li>Modify tier structures, payment schedules, or qualification criteria</li>
+            <li>Deny referral payments for any reason at its sole discretion</li>
+            <li>Terminate the referral program entirely without notice or obligation</li>
+            <li>Refuse to accept referrals from specific individuals or entities</li>
+            <li>Limit the number of referrals accepted from any single Referrer</li>
+        </ul>
+        <p>No Referrer has any contractual right, entitlement, or guarantee to referral compensation. Participation in the referral program does not create an employment relationship, partnership, joint venture, or agency relationship between the Referrer and the Company.</p>
+
+        <h3>30.6 Tax Responsibility and Reporting</h3>
+        <p>Referrers are solely responsible for all tax obligations associated with referral compensation. The Company will issue tax documentation (such as Form 1099-NEC) as required by law for referral payments exceeding applicable thresholds. Referrers agree to provide accurate tax information, including W-9 forms or equivalent documentation, upon request.</p>
+        <p>The Company is not responsible for advising Referrers on tax obligations or withholding taxes unless required by law.</p>
+
+        <h2>31. Contact Information</h2>
+        <p><strong>The Andrew Rauschenberger Companies (d/b/a Copyvert)</strong><br>
+        Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c3d32382e392b1c2834393d2e3f33312c3d3235392f723f3331">[email&#160;protected]</a><br>
+        West Palm Beach, Florida, United States</p>
+
+        <div class="highlight">
+            <p><strong>BY PURCHASING, ACCESSING, OR USING THE COMPANY'S SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS OF SERVICE IN THEIR ENTIRETY.</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Reachvert. All Rights Reserved.</p>
+    </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+            <p><strong>ALL SALES ARE FINAL. NO REFUNDS, CREDITS, OR CHARGEBACKS WILL BE ISSUED UNDER ANY CIRCUMSTANCES.</strong></p>
+            <p>This policy applies to all services, including but not limited to: one-time deliverables, subscription-based services, consulting retainers, and all other offerings provided by the Company. By completing a purchase or authorizing payment, the Client explicitly acknowledges and agrees to this no-refund policy.</p>
+        </div>
+        <p>No refunds will be provided for:</p>
+        <ul>
+            <li>Dissatisfaction with deliverables, messaging, strategy, or results</li>
+            <li>Changes in Client business priorities, strategy, or direction</li>
+            <li>Underutilization of services or failure to engage with provided resources</li>
+            <li>Technical issues on the Client's side (incorrect information provided, inability to access platforms, etc.)</li>
+            <li>Third-party platform changes, policy updates, or external factors beyond the Company's control</li>
+            <li>Cancellations requested mid-project, mid-subscription, or after services have commenced</li>
+            <li>Any other reason not explicitly covered by a written exception approved by the Company</li>
+        </ul>
+
+        <h3>5.2 Subscription Cancellation Policy</h3>
+        <p>Clients may cancel subscription-based services by providing written notice via email to the Company at least thirty (30) days before the next billing date. Cancellations must be submitted in writing and confirmed by the Company to be considered effective.</p>
+        <p>Cancellations received less than thirty (30) days before the next billing date will not prevent the upcoming charge. The Client will be charged for the next billing cycle and services will continue through the end of that cycle. No partial refunds or prorated credits will be issued for early cancellation within a billing period.</p>
+        <p>Upon cancellation, the Client retains access to services through the end of the current paid subscription period. After the subscription period ends, access to services, deliverables, and support will be terminated.</p>
+
+        <h3>5.3 Termination by the Company</h3>
+        <p>The Company reserves the right to terminate services, suspend accounts, or refuse service to any Client at any time, with or without cause, and with or without prior notice. Grounds for termination may include, but are not limited to:</p>
+        <ul>
+            <li>Non-payment or late payment of invoices</li>
+            <li>Violation of these Terms of Service</li>
+            <li>Abusive, threatening, or harassing behavior toward Company personnel</li>
+            <li>Fraudulent activity, chargebacks, or payment disputes</li>
+            <li>Use of services in violation of applicable laws or regulations</li>
+            <li>Requests for services that exceed the scope of the Client's purchased tier without authorization</li>
+            <li>Any conduct deemed by the Company to be detrimental to its business, reputation, or operations</li>
+        </ul>
+        <p>In the event of termination by the Company, no refunds or credits will be issued. The Client remains responsible for all outstanding invoices and charges incurred prior to termination.</p>
+
+        <h2>6. Intellectual Property and Ownership Rights</h2>
+
+        <h3>6.1 Ownership of Deliverables</h3>
+        <p>Upon full payment for services, the Client is granted ownership of final deliverables created specifically for the Client as part of the engagement (such as copy, content, or campaign assets). However, the Company retains ownership of all processes, methodologies, frameworks, templates, systems, tools, and proprietary strategies used to create those deliverables.</p>
+        <p>The Client may not resell, redistribute, or repurpose the Company's proprietary methods, frameworks, or strategic approaches without explicit written permission.</p>
+
+        <h3>6.2 Portfolio and Case Study Rights</h3>
+        <p>The Company reserves the right to use Client work, deliverables, campaign results, and performance metrics in marketing materials, case studies, portfolio presentations, and promotional content unless the Client explicitly requests confidentiality in writing at the time of engagement. Requests for confidentiality must be approved by the Company and may be subject to additional fees.</p>
+
+        <h3>6.3 Third-Party Materials</h3>
+        <p>Any third-party content, stock images, software licenses, or materials required for project execution are the responsibility of the Client unless explicitly included in the scope of work. The Client is responsible for ensuring they have appropriate licenses, permissions, and rights to use any materials provided to the Company.</p>
+
+        <h2>7. Limitation of Liability and Disclaimer of Warranties</h2>
+
+        <h3>7.1 No Guarantees of Results</h3>
+        <div class="highlight">
+            <p><strong>THE COMPANY DOES NOT GUARANTEE, WARRANT, OR PROMISE ANY SPECIFIC RESULTS, OUTCOMES, REVENUE, CONVERSIONS, RESPONSE RATES, LEAD GENERATION, OR PERFORMANCE METRICS.</strong></p>
+            <p>All services are provided on an "as is" basis. The Company provides strategic guidance, infrastructure, execution, and expertise—not guaranteed business outcomes. Results depend on numerous factors outside the Company's control, including but not limited to market conditions, product quality, offer strength, competitive landscape, Client execution, and external economic factors.</p>
+        </div>
+
+        <h3>7.2 Limitation of Liability</h3>
+        <p>To the maximum extent permitted by law, the Company's total liability for any claim arising out of or related to these Terms or the services provided shall not exceed the total amount paid by the Client to the Company in the six (6) months immediately preceding the claim.</p>
+        <p>The Company shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, revenue, data, business opportunities, or goodwill, even if the Company has been advised of the possibility of such damages.</p>
+
+        <h3>7.3 Third-Party Platform Risks</h3>
+        <p>Services may involve the use of third-party platforms, tools, software, or services (such as email service providers, LinkedIn, automation tools, CRM systems, etc.). The Company is not responsible for changes to third-party platforms, policy updates, account suspensions, technical issues, or any other actions taken by third-party providers.</p>
+        <p>The Client acknowledges that third-party platforms may change policies, pricing, terms of service, or functionality at any time, and such changes are outside the Company's control. The Company is not liable for disruptions, account issues, or service degradation caused by third-party platforms.</p>
+
+        <h2>8. Confidentiality and Data Protection</h2>
+
+        <h3>8.1 Client Confidentiality</h3>
+        <p>The Company will maintain the confidentiality of Client information, including proprietary data, business strategies, and sensitive communications, except as required by law or as necessary to perform services. The Company will not disclose Client information to third parties without the Client's consent, except to subcontractors or service providers necessary to fulfill the engagement.</p>
+
+        <h3>8.2 Data Security</h3>
+        <p>The Company takes reasonable measures to protect Client data and information. However, the Company cannot guarantee absolute security and is not liable for unauthorized access, data breaches, or security incidents resulting from factors beyond its reasonable control.</p>
+        <p>The Client is responsible for maintaining the security of their own systems, passwords, and access credentials. The Company is not liable for security breaches resulting from Client negligence, weak passwords, or failure to follow recommended security practices.</p>
+
+        <h2>9. Compliance with Laws and Regulations</h2>
+
+        <h3>9.1 Client Responsibility for Compliance</h3>
+        <p>The Client is solely responsible for ensuring that all outreach, marketing, and communications comply with applicable laws and regulations, including but not limited to CAN-SPAM, GDPR, TCPA, CASL, and other data protection and anti-spam laws. The Company provides infrastructure and execution support—not legal compliance advice.</p>
+        <p>The Client warrants that they have obtained all necessary permissions, consents, and opt-ins required to contact prospects and customers. The Client indemnifies and holds the Company harmless from any claims, fines, penalties, or legal action resulting from the Client's non-compliance with applicable laws.</p>
+
+        <h3>9.2 Prohibited Uses</h3>
+        <p>The Client may not use the Company's services for any unlawful, fraudulent, or prohibited purposes, including but not limited to:</p>
+        <ul>
+            <li>Sending unsolicited spam or bulk emails in violation of anti-spam laws</li>
+            <li>Promoting illegal products, services, or activities</li>
+            <li>Engaging in deceptive, misleading, or fraudulent marketing practices</li>
+            <li>Violating intellectual property rights, privacy laws, or data protection regulations</li>
+            <li>Conducting phishing, malware distribution, or other malicious activities</li>
+        </ul>
+        <p>The Company reserves the right to suspend or terminate services immediately if it determines that the Client is engaging in prohibited activities.</p>
+
+        <h2>10. Indemnification</h2>
+        <p>The Client agrees to indemnify, defend, and hold harmless the Company, its officers, directors, employees, contractors, and affiliates from and against any and all claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:</p>
+        <ul>
+            <li>The Client's use of services provided by the Company</li>
+            <li>The Client's violation of these Terms of Service</li>
+            <li>The Client's violation of any applicable laws or regulations</li>
+            <li>The Client's negligence, misconduct, or breach of contract</li>
+            <li>Any third-party claims arising from the Client's use of deliverables, messaging, or campaigns</li>
+        </ul>
+
+        <h2>11. Dispute Resolution and Governing Law</h2>
+
+        <h3>11.1 Governing Law</h3>
+        <p>These Terms shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law principles. Any legal action or proceeding arising out of or related to these Terms shall be brought exclusively in the state or federal courts located in Palm Beach County, Florida, and the parties consent to the jurisdiction of such courts.</p>
+
+        <h3>11.2 Dispute Resolution Process</h3>
+        <p>In the event of any dispute, claim, or controversy arising out of or related to these Terms or the services provided, the parties agree to first attempt to resolve the dispute through good faith negotiations. If the dispute cannot be resolved through negotiations within thirty (30) days, the parties agree to mediation before a mutually agreed-upon mediator in Palm Beach County, Florida.</p>
+        <p>If mediation is unsuccessful, the dispute shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association. The arbitration shall take place in Palm Beach County, Florida, and the decision of the arbitrator shall be final and binding on both parties.</p>
+
+        <h3>11.3 Waiver of Class Actions</h3>
+        <p>The Client agrees to resolve disputes on an individual basis and waives any right to participate in class action lawsuits or class-wide arbitration against the Company.</p>
+
+        <h2>12. Chargebacks and Payment Disputes</h2>
+        <div class="highlight">
+            <p><strong>INITIATING A CHARGEBACK OR PAYMENT DISPUTE IS STRICTLY PROHIBITED AND CONSTITUTES A MATERIAL BREACH OF THESE TERMS.</strong></p>
+        </div>
+        <p>By completing a purchase and accepting these Terms, the Client explicitly agrees to resolve any billing disputes, service concerns, or dissatisfaction directly with the Company through written communication. The Client acknowledges that chargebacks and payment disputes cause significant financial and reputational harm to the Company and agrees not to initiate such actions.</p>
+        <p>If the Client initiates a chargeback or payment dispute in violation of this policy, the Company reserves the right to:</p>
+        <ul>
+            <li>Immediately terminate all services and access</li>
+            <li>Pursue legal action to recover the disputed amount, plus all associated costs, fees, and damages</li>
+            <li>Report the Client to credit bureaus and collection agencies</li>
+            <li>Seek reimbursement for chargeback fees, legal fees, administrative costs, and any other damages incurred</li>
+            <li>Refuse future services to the Client</li>
+        </ul>
+        <p>The Client acknowledges that initiating a chargeback does not release them from their contractual obligations or liabilities under these Terms.</p>
+
+        <h2>13. Force Majeure</h2>
+        <p>The Company shall not be liable for any failure or delay in performance due to causes beyond its reasonable control, including but not limited to acts of God, natural disasters, war, terrorism, pandemics, government actions, labor disputes, internet or telecommunications failures, third-party platform outages, or any other force majeure event.</p>
+        <p>In the event of a force majeure event, the Company's obligations under these Terms shall be suspended for the duration of the event. If the force majeure event continues for more than sixty (60) days, either party may terminate the engagement without liability.</p>
+
+        <h2>14. Modifications to Terms of Service</h2>
+        <p>The Company reserves the right to modify, update, or revise these Terms of Service at any time without prior notice. Changes will be effective immediately upon posting on the Company's website or upon notification to the Client. Continued use of services after changes are posted constitutes acceptance of the modified Terms.</p>
+        <p>It is the Client's responsibility to review these Terms periodically for updates. The Company is not obligated to notify Clients of changes unless required by law.</p>
+
+        <h2>15. Severability</h2>
+        <p>If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions shall continue in full force and effect. The invalid or unenforceable provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving the intent of the parties.</p>
+
+        <h2>16. Entire Agreement</h2>
+        <p>These Terms of Service, together with any applicable service agreements, invoices, and written amendments, constitute the entire agreement between the parties and supersede all prior agreements, understandings, and communications, whether written or oral, related to the subject matter herein.</p>
+        <p>No modification, amendment, or waiver of these Terms shall be effective unless in writing and signed by both parties. Any verbal agreements, promises, or representations not included in these Terms are not binding.</p>
+
+        <h2>17. Contact Information</h2>
+        <p>For questions, concerns, or disputes related to these Terms of Service, please contact:</p>
+        <p><strong>The Andrew Rauschenberger Companies (d/b/a Copyvert)</strong><br>
+        Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a0c1cec4d2c5d7e0d4c8c5c1d2c3cfcdd0c1cec9c5d38ec3cfcd">[email&#160;protected]</a></p>
+
+   
