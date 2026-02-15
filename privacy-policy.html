@@ -75,6 +75,16 @@
             width: auto;
         }
 
+        .logo-container a {
+            display: inline-block;
+            line-height: 0;
+        }
+
+        .logo-container a:hover img {
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
         .back-link {
             color: var(--green);
             text-decoration: none;
@@ -191,9 +201,10 @@
 
     <header>
         <div class="logo-container">
-            <img src="reachvert_logo_transparent.png" alt="Reachvert - B2B Outbound Infrastructure">
+            <a href="index.html">
+                <img src="reachvert_logo_transparent.png" alt="Reachvert - B2B Outbound Infrastructure">
+            </a>
         </div>
-        <a href="index.html" class="back-link">← Back to Home</a>
     </header>
 
     <div class="container">
@@ -634,7 +645,14 @@
     </div>
 
     <footer>
-        <p>© 2026 Reachvert. All Rights Reserved.</p>
+        <div class="container" style="text-align: center;">
+            <h3 style="color: var(--green); font-size: 1.2rem; margin-bottom: 1rem;">Legal</h3>
+            <p style="margin-bottom: 2rem;">
+                <a href="terms-of-service.html" style="color: var(--gray-300); text-decoration: none; transition: color 0.3s ease; margin-right: 2rem;">Terms of Service</a>
+                <a href="privacy-policy.html" style="color: var(--gray-300); text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a>
+            </p>
+            <p style="color: var(--gray-400);">© 2026 Reachvert. All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
